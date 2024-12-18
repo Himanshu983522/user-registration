@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the User Registration Portal</h1>
+    </header>
+    <h2>by Himanshu Singh</h2>
+    <h2> VU22CSEN0101246 </h2>
+
+    <section>
+        <h2>Create an Account</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="youremail@example.com" required><br><br>
+
+            <label for="password">Choose Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" max="100" placeholder="Enter your age"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+           
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="experience">Experience Level:</label>
+            <input type="range" id="experience" name="experience" min="1" max="10"><br><br>
+
+            <label for="profile-pic">Upload Profile Picture:</label>
+            <input type="file" id="profile-pic" name="profile-pic"><br><br>
+
+            <label>Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Programming</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="">Choose your country</option>
+                <option value="india">India</option>
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+            </select><br><br>
+
+
+            <label for="bio">Short Bio:</label><br>
+            <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself..."></textarea><br><br>
+
+            <button type="submit">Sign Up</button>
+            <button type="reset">Clear</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Weekly Schedule</h2>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>9:00 - 10:00 AM</td>
+                <td>BEE (Basic Electrical Engineering)</td>
+                <td>JAVA Programming</td>
+                <td>WAD (Web Application Development)</td>
+                <td>Data Structures</td>
+                <td>Operating Systems</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00 AM</td>
+                <td>Discrete Mathematics</td>
+                <td>JAVA Programming</td>
+                <td>Computer Networks</td>
+                <td>Digital Logic Design</td>
+                <td>DBMS (Database Management Systems)</td>
+            </tr>
+            <tr>
+                <td>11:00 - 12:00 PM</td>
+                <td>Software Engineering</td>
+                <td>Computer Architecture</td>
+                <td>WAD (Web Application Development)</td>
+                <td>Python Programming</td>
+                <td>Compiler Design</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Multimedia Section</h2>
+        <h3>Audio Player</h3>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video Player</h3>
+        <video controls width="320">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <section>
+        <h2>Extra Resources</h2>
+        <ul>
+            <li><a href="https://www.example.com">Visit Example Website-GITAM </a></li>
+        </ul>
+
+        <h3>Image</h3>
+        <img src="images.png" alt=" Image" width="300">
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
